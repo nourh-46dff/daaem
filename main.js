@@ -227,7 +227,7 @@ function initPartnersSlider() {
 
     const partnerImage = document.createElement("img");
     partnerImage.className = "partner-image";
-    partnerImage.src = `./images/partner${i}.png`;
+    partnerImage.src = `./images/partner${i}.PNG`;
     partnerImage.alt = `شريك ${i}`;
 
     partnerCard.appendChild(partnerImage);
@@ -355,4 +355,5 @@ window.addEventListener("resize", () => {
         updateSlider();
    
 });
+
 
